@@ -1,0 +1,153 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: black;
+}
+
+
+header {
+    background-color: black;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 10px 0;
+    font-size: 1.6em; 
+}
+
+nav {
+    background-color: black;
+    text-align: center;
+}
+.navbar-title {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10px; 
+}
+
+.navbar-title h1 {
+    font-size: 1.5rem; 
+    margin: 0;
+}
+
+.nav-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.nav-links li a {
+    color: #f0c040;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    background-color: black;
+}
+
+
+.container {
+    background-color: #000 !important;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.contact-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+.section-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+
+.cafes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.cafe {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 23%;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.cafe:hover {
+    transform: translateY(-5px);
+}
+
+.cafe img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.cafe h2 {
+    font-size: 1.5em;
+    margin: 15px 0;
+}
+
+.cafe .location {
+    font-size: 1.1em;
+    color: #777;
+}
+
+.cafe p {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+.cafe a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cafe a:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+}

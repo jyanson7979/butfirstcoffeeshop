@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="LogOut.css"> 
+</head>
+<body>
+    
+    <div class="logout-container">
+        <h1>Logout Page</h1>
+        <p>Log out of your account?</p>
+        <button id="logoutBtn">Log Out</button>
+    </div>
+
+    <script>
+     
+        document.getElementById("logoutBtn").addEventListener("click", function() {
+        
+            var confirmation = confirm("Log out of your account?");
+            
+            if (confirmation) {
+            
+                window.location.href = "LogIn.html"; 
+            } else {
+             
+                alert("You are still logged in.");
+            }
+        });
+    </script>
+</body>
+</html>
